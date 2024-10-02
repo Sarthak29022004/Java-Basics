@@ -2,8 +2,6 @@ import java.util.*;
 
 public class Method_Calling {
     public static void main(String []args){
-        int a = 10;
-        int b = 15;
         System.out.println("Sarthak");
         Method_Calling cl = new Method_Calling();
         cl.add();
@@ -14,11 +12,13 @@ public class Method_Calling {
         int C = sc.nextInt();
         int D = sc.nextInt();
         System.out.println(C + D);
+        sc.close();
     }
     static void Sub() {  //We don't need to create object, we can directly call static method 
         Scanner sc = new Scanner(System.in);
         int C = sc.nextInt();
         int D = sc.nextInt();
         System.out.println(C + D);
+        sc.close();
     }
 }

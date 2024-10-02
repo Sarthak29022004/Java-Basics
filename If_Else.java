@@ -28,5 +28,6 @@ public class If_Else{
         }else {
             System.out.println("Enter Valid Marks");
         }
+        s.close();
     }
 }
