@@ -5,7 +5,7 @@ public class Method_Calling {
         int a = 10;
         int b = 15;
         System.out.println("Sarthak");
-        abc cl = new abc();
+        Method_Calling cl = new Method_Calling();
         cl.add();
         Sub();
     }
