@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class abc{
+public class If_Else{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int A = s.nextInt();
